@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="root" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.wonders.client.controller.trash.Lobby">
+   <children>
+      <HBox prefHeight="58.0" prefWidth="350.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#back_dashboard" text="leave" />
+            <Label fx:id="lobby_name" alignment="CENTER" prefHeight="32.0" prefWidth="262.0" text="lobby_name">
+               <font>
+                  <Font name="Agency FB Bold" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Label fx:id="total_players" alignment="CENTER" layoutX="15.0" layoutY="30.0" prefHeight="32.0" prefWidth="370.0" text="Players ( 0 / 4 )">
+         <font>
+            <Font name="Bell MT Italic" size="16.0" />
+         </font>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </Label>
+      <Line endX="250.0" startX="-100.0">
+         <VBox.margin>
+            <Insets top="30.0" />
+         </VBox.margin>
+      </Line>
+   </children>
+</VBox>

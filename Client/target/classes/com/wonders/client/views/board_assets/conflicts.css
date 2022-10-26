@@ -1,0 +1,10 @@
+.root{
+    -fx-background-color: linear-gradient(#f55240, white);
+    -fx-border-color: #d19f5a;
+    -fx-border-width: 10;
+}
+
+.line{
+    -fx-stroke: linear-gradient(#d19f5a, white);
+    -fx-stroke-width: 10;
+}

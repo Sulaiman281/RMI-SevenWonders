@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="card_root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="208.0" prefWidth="158.0" style="-fx-border-color: transparent; -fx-border-width: 4;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.wonders.client.controller.board_assets.CardTemplate">
+   <Rectangle fx:id="type" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" layoutX="4.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+   <Label fx:id="name" layoutX="-39.0" layoutY="137.0" prefHeight="13.0" prefWidth="115.0" rotate="-90.0" style="-fx-background-color: white;" text="card_name">
+      <font>
+         <Font name="Bodoni MT" size="11.0" />
+      </font>
+   </Label>
+   <Line endX="-60.0" endY="18.199996948242188" layoutX="78.0" layoutY="57.0" startX="-60.0" startY="-48.0" stroke="#ffd875" strokeWidth="8.0" />
+   <VBox fx:id="cost_list" alignment="TOP_CENTER" layoutX="9.0" layoutY="5.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="20.0" spacing="5.0">
+      <padding>
+         <Insets top="5.0" />
+      </padding></VBox>
+   <HBox fx:id="effect_box" alignment="CENTER_RIGHT" layoutX="35.0" layoutY="5.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="123.0" spacing="2.0">
+      <padding>
+         <Insets bottom="5.0" left="10.0" right="5.0" top="10.0" />
+      </padding></HBox>
+   <Rectangle fx:id="img" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="158.0" layoutX="32.0" layoutY="46.0" stroke="BLACK" strokeType="INSIDE" width="123.0" />
+</Pane>

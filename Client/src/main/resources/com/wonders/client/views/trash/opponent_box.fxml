@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="root" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="65.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.wonders.client.controller.trash.OpponentBox">
+   <children>
+      <Label fx:id="player_name" text="player_name">
+         <font>
+            <Font name="Agency FB" size="24.0" />
+         </font>
+         <HBox.margin>
+            <Insets left="15.0" />
+         </HBox.margin>
+      </Label>
+      <CheckBox fx:id="is_ready" disable="true" mnemonicParsing="false">
+         <HBox.margin>
+            <Insets left="150.0" />
+         </HBox.margin>
+         <font>
+            <Font size="16.0" />
+         </font>
+      </CheckBox>
+   </children>
+</HBox>

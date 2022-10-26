@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="290.0" prefWidth="600.0" styleClass="root" stylesheets="@conflicts.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.wonders.client.controller.board_assets.Conflicts">
+   <children>
+      <Label fx:id="left_player" alignment="CENTER" layoutX="23.0" layoutY="70.0" prefHeight="16.0" prefWidth="182.0" text="LEFT_PLAYER">
+         <font>
+            <Font name="Algerian" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="right_player" alignment="CENTER" layoutX="408.0" layoutY="70.0" prefHeight="16.0" prefWidth="175.0" text="RIGHT PLAYER">
+         <font>
+            <Font name="Algerian" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="player" alignment="CENTER" layoutX="217.0" layoutY="69.0" prefHeight="16.0" prefWidth="175.0" text="PLAYER">
+         <font>
+            <Font name="Algerian" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="219.0" layoutY="21.0" text="Military Conflicts">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="62.0" fitWidth="73.0" layoutX="85.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/cards/Army.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="83.0" fitWidth="93.0" layoutX="263.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/cards/Army.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="73.0" layoutX="466.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/cards/Army.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="left_shield" layoutX="113.0" layoutY="145.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="shields" layoutX="301.0" layoutY="161.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="right_shield" layoutX="494.0" layoutY="144.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="10.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="93.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/icons/VP.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="475.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/icons/VP.png" />
+         </image>
+      </ImageView>
+      <Line endX="-18.0" endY="154.0" layoutX="219.0" layoutY="119.0" startX="-18.0" startY="-104.33333587646484" strokeWidth="5.0" styleClass="line" />
+      <Line endX="-18.0" endY="154.0" layoutX="439.0" layoutY="118.0" startX="-18.0" startY="-104.0" strokeWidth="5.0" styleClass="line" />
+      <Label fx:id="left_conflict" layoutX="110.0" layoutY="192.0" text="0" />
+      <Label fx:id="right_conflict" layoutX="492.0" layoutY="192.0" text="0" />
+   </children>
+</AnchorPane>

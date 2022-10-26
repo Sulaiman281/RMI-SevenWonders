@@ -1,0 +1,7 @@
+.root{
+    -fx-background-color: rgb(189, 214, 146, .6);
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: #ccde59;
+    -fx-border-width: 5;
+}

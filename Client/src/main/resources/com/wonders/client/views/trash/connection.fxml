@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="431.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.wonders.client.controller.trash.Connection">
+   <children>
+      <Button fx:id="register_user" layoutX="141.0" layoutY="116.0" mnemonicParsing="false" text="Registor User" />
+      <Button fx:id="login_user" layoutX="33.0" layoutY="116.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="87.0" text="Login User" />
+      <Label fx:id="auth_label" alignment="CENTER" layoutX="33.0" layoutY="62.0" prefHeight="43.0" prefWidth="192.0" text="* User Authentication" wrapText="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="connection_label" alignment="CENTER" layoutX="358.0" layoutY="107.0" prefHeight="43.0" prefWidth="225.0" text="* Connect to Server" wrapText="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="358.0" layoutY="148.0" prefHeight="25.0" prefWidth="225.0" text="Connect to Server." wrapText="true" />
+      <Button fx:id="connect_server" layoutX="358.0" layoutY="203.0" mnemonicParsing="false" text="connect" />
+      <Button fx:id="menu_btn" layoutX="458.0" layoutY="370.0" mnemonicParsing="false" text="Go to Menu" />
+      <TextField fx:id="server_field" layoutX="358.0" layoutY="173.0" prefHeight="25.0" prefWidth="192.0" promptText="server ip here" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="400.0" styleClass="root" stylesheets="@opponentview.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.wonders.client.controller.board_assets.OpponentView">
+   <children>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="400.0" spacing="20.0" styleClass="boxes">
+         <children>
+            <Label fx:id="lN_Name" alignment="CENTER" prefHeight="40.0" prefWidth="163.0" text="player_name" textFill="WHITE">
+               <font>
+                  <Font name="Bodoni MT Bold" size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="400.0" spacing="20.0" styleClass="boxes">
+         <children>
+            <Label fx:id="lN_Shields" alignment="CENTER" prefHeight="40.0" prefWidth="40.0" text="00" textFill="WHITE">
+               <font>
+                  <Font name="Bodoni MT" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="lN_Coins" alignment="CENTER" layoutX="190.0" layoutY="15.0" prefHeight="40.0" prefWidth="40.0" text="00" textFill="WHITE">
+               <font>
+                  <Font name="Bodoni MT" size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="400.0" spacing="20.0" styleClass="boxes">
+         <children>
+            <Label fx:id="city_name" alignment="CENTER" prefHeight="40.0" prefWidth="163.0" text="city_name" textFill="WHITE">
+               <font>
+                  <Font name="Bodoni MT" size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox fx:id="stages_box" alignment="CENTER" layoutX="10.0" layoutY="90.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="400.0" spacing="20.0" styleClass="boxes" />
+      <HBox fx:id="city_dResource" alignment="CENTER" layoutX="10.0" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="400.0" spacing="20.0" styleClass="boxes" />
+      <ComboBox fx:id="cityBuilds" prefHeight="25.0" prefWidth="400.0" promptText="CITY BUILDS" />
+   </children>
+</VBox>

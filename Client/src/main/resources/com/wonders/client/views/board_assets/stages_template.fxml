@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox fx:id="root" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="95.0" prefWidth="230.0" styleClass="root" stylesheets="@stagetemplate.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.wonders.client.controller.board_assets.StageTemplate">
+   <FlowPane fx:id="costs" hgap="5.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="75.0" prefWidth="70.0" rowValignment="TOP" vgap="5.0">
+      <HBox.margin>
+         <Insets />
+      </HBox.margin>
+      <padding>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </padding></FlowPane>
+   <HBox fx:id="effect" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="75.0" prefWidth="164.0" spacing="5.0">
+      <padding>
+         <Insets bottom="5.0" right="5.0" top="5.0" />
+      </padding>
+   </HBox>
+   <padding>
+      <Insets bottom="5.0" right="5.0" top="5.0" />
+   </padding>
+</HBox>

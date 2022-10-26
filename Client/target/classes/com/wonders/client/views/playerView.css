@@ -1,0 +1,30 @@
+.root{
+    -fx-background-color: linear-gradient(#ccba7a, #5c471a);
+    -fx-border-color: #ccde59;
+    -fx-border-width: 5;
+    -fx-border-radius: 20 20 0 0;
+    -fx-background-radius: 20 20 0 0;
+}
+
+.containers{
+    -fx-background-color: rgb(0, 0, 0, .6);
+    -fx-border-color: #ccde59;
+    -fx-border-width: 5;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+}
+
+.small_boxes{
+    -fx-background-color: rgb(242, 136, 61, .8);
+    -fx-border-color: #ccde59 #ccde59 transparent #ccde59;
+    -fx-border-width: 5 5 0 5;
+    -fx-border-radius: 15 15 0 0;
+    -fx-background-radius: 15 15 0 0;
+}
+
+
+.card_container{
+    -fx-background-color: rgb(0,0,0,.6);
+    -fx-background-radius: 15 15 0 0;
+    -fx-border-radius: 15 15 0 0;
+}

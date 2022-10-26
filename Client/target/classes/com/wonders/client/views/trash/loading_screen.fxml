@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(#ffcda1, white);" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.wonders.client.controller.trash.Loading_Screen">
+   <children>
+      <ProgressBar fx:id="progress_bar" layoutX="149.0" layoutY="229.0" prefHeight="13.0" prefWidth="303.0" progress="0.0" />
+      <Label layoutX="149.0" layoutY="182.0" text="LOADING........">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label fx:id="msg_box" alignment="CENTER" layoutX="-1.0" layoutY="242.0" prefHeight="13.0" prefWidth="600.0" text="msg">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

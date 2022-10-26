@@ -1,0 +1,12 @@
+.root{
+    -fx-background-color: rgb(0,0,0,.7);
+    -fx-background-radius: 20 20 0 0;
+    -fx-border-color: #ccde59 linear-gradient(#5c471a, white) linear-gradient(#5c471a,white) linear-gradient(#5c471a, white);
+    -fx-border-width: 5 2 0 2;
+    -fx-border-radius: 20 20 0 0;
+}
+
+.boxes{
+    -fx-border-color: transparent transparent linear-gradient(#5c471a, white) transparent;
+    -fx-border-width: 2;
+}

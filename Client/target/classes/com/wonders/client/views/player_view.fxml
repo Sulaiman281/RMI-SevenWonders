@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" styleClass="root" stylesheets="@playerView.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.wonders.client.controller.Player_View">
+   <ScrollPane layoutX="169.0" layoutY="315.0" prefHeight="280.0" prefWidth="859.0" styleClass="small_boxes" vbarPolicy="NEVER">
+      <HBox fx:id="cards" alignment="CENTER_LEFT" prefHeight="261.0" prefWidth="848.0" spacing="20.0" styleClass="card_container">
+         <padding>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </padding>
+      </HBox>
+   </ScrollPane>
+   <HBox fx:id="stages_box" alignment="CENTER" layoutX="85.0" layoutY="163.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="130.0" prefWidth="1030.0" spacing="20.0" styleClass="containers">
+      <padding>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+      </padding></HBox>
+   <Pane layoutX="-1.0" layoutY="375.0" prefHeight="220.0" prefWidth="165.0" styleClass="small_boxes">
+      <ImageView fitHeight="117.0" fitWidth="133.0" layoutX="11.0" layoutY="-5.0">
+         <image>
+            <Image url="@../images/cards/Army.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="discarded_cards" layoutX="111.0" layoutY="96.0" text="00">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="age_name" layoutX="14.0" layoutY="147.0" text="AGE I">
+         <font>
+            <Font name="Algerian" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="passing_side" layoutX="86.0" layoutY="193.0" text="clockwise">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="shields_count" layoutX="72.0" layoutY="43.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="47.0" fitWidth="72.0" layoutX="25.0" layoutY="91.0">
+         <image>
+            <Image url="@../images/icons/DISCARD.png" />
+         </image>
+      </ImageView>
+   </Pane>
+   <Pane layoutX="1034.0" layoutY="375.0" prefHeight="220.0" prefWidth="165.0" styleClass="small_boxes">
+      <ToggleButton layoutX="15.0" layoutY="129.0" mnemonicParsing="false" onAction="#music_toggle" text="music">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </ToggleButton>
+      <Button fx:id="game_status" layoutX="15.0" layoutY="169.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="58.0" text="status" />
+      <ImageView fitHeight="69.0" fitWidth="78.0" layoutX="29.0" layoutY="36.0">
+         <image>
+            <Image url="@../images/icons/COIN.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="player_coins" layoutX="54.0" layoutY="53.0" text="00" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </Pane>
+   <ScrollPane hbarPolicy="NEVER" layoutX="23.0" layoutY="11.0" prefHeight="146.0" prefWidth="1154.0" styleClass="card_container">
+      <content>
+         <FlowPane fx:id="city_buildings" hgap="10.0" prefHeight="146.0" prefWidth="1154.0" styleClass="containers" vgap="10.0" />
+      </content>
+   </ScrollPane>
+</Pane>
