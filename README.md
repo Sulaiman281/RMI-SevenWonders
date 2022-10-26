@@ -6,7 +6,7 @@
  it was my first experience with RMI (Remote methology Invocation) in 2021 november.
  there are 2 separate projects 1 for client and 1 for server.
  
- this system is not that optimized it can be optimized more but I had done it for a assignment. so they just need work to be done.
+ this system is not that optimized it can be optimized more but I had done it for a assignment. so they just need work to be done. I spend more time in understanding game mechanics. which is tougher then developing it. I don't recommand to play it.
  
  
  (Freelance Work )
