@@ -3,7 +3,7 @@
  
  Client and Server Code are both in the files
  
- Server do the server part and client has mostly preview part...
+ Server do the server part and client has mostly user showcase part...
  
  (Freelance Work )
  
