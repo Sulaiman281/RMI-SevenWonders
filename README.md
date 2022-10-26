@@ -1,9 +1,13 @@
 # RMI SevenWonders
  RMI based Multiplayer Game SevenWonders
  
- Client and Server Code are both in the files
+ Full GameCode Files
  
- Server do the server part and client has mostly user showcase part...
+ it was my first experience with RMI (Remote methology Invocation) in 2021 november.
+ there are 2 separate projects 1 for client and 1 for server.
+ 
+ this system is not that optimized it can be optimized more but I had done it for a assignment. so they just need work to be done.
+ 
  
  (Freelance Work )
  
